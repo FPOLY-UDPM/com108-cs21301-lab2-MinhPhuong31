@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [TRẦN MINH PHƯƠNG]
+ * MSSV:      [PS33274]
+ * Lớp:       [CS21301]
  *****************************************************************************/
 
  // BÀI 1: XÂY DỰNG CHƯƠNG TRÌNH CỘNG / TRỪ 2 SỐ 
@@ -10,14 +10,21 @@
 
 #include <stdio.h>
 
-int main(){
-    // Khai báo biến
+int main() {
+    int a, b;
+    int sum, minus;
 
-    // Nhập dữ liệu
+    printf("Nhap a: ");
+    scanf("%d", &a);
 
+    printf("Nhap b: ");
+    scanf("%d", &b);
 
-    // Xử lý, tính toán
+    sum = a + b;
+    minus = a - b;
 
-    // Hiển thị kết quả
+    printf("Tong = %d\n", sum);
+    printf("Hieu = %d\n", minus);
 
+    return 0;
 }

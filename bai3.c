@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [TRẦN MINH PHƯƠNG]
+ * MSSV:      [PS33274]
+ * Lớp:       [CS21301]
  *****************************************************************************/
 
 // BÀI 3: XÂY DỰNG CHƯƠNG TRÌNH TÍNH CHU VI DIỆN TÍCH HÌNH TRÒN 
@@ -11,14 +11,17 @@
 #include <stdio.h>
 
 int main(){
-    // Khai báo biến
+   float Bankinh;
+    float chuvi, dientich;
 
-    // Nhập dữ liệu
+    printf("Nhap ban kinh: ");
+    scanf("%f", &Bankinh);
 
+    chuvi = 2 * 3.14 * Bankinh;
+    dientich = 3.14 * Bankinh * Bankinh;
 
-    // Xử lý, tính toán
+    printf("Chu vi hinh tron la: %.2f\n", chuvi);
+    printf("Dien tich hinh tron la: %.2f\n", dientich);
 
-    // Hiển thị kết quả
-
-
+    return 0;
 }
